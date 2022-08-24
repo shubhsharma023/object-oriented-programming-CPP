@@ -11,13 +11,12 @@ int main()
         {
             if (i % k == 0)
             {
-                std::cout << " ";
                 break;
             }
         }
         if (k == i)
         {
-            std::cout << k;
+            std::cout << k << "\t";
         }
     }
     return 0;
